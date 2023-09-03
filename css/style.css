@@ -2,6 +2,9 @@ a,svg,img{
     cursor: pointer;
 }
 
+.emailvalid{
+    color:red;}
+
 .meal-overlay{
     width: 100%;
     height: 100%;
