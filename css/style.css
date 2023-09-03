@@ -18,7 +18,7 @@ a,svg,img{
     top: 0;
 }
 
-label{
+label,form-control{
     margin-bottom:20px;
     color:white;}
 
