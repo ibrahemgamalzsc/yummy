@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yummy</title>
+</head>
+
+<body class=" bg-black">
+
+    <div
+        class="loader z-1 position-fixed start-0 end-0 top-0 bottom-0 bg-black d-flex justify-content-center align-items-center">
+        <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+    </div>
+
+
+
+
+    <div class="container w-75" id="search-container">
+
+    </div>
+
+
+
+    <div class="container">
+        <div class="row py-5 g-4" id="data-container">
+
+        </div>
+
+    </div>
+
+
+
+    <div class="side-nav-menu  vh-100 position-fixed top-0 bg-white d-flex" style="left: -245px;">
+        <div class="nav-tab  d-flex flex-column justify-content-between vh-100 p-4 bg-black">
+            <div class="links">
+                <ul class="list-unstyled overflow-hidden">
+                    <li class="py-2 position-relative" onclick="showSearchInputs(); " style="top: 150px;">
+                        <a class="text-white text-decoration-none">Search</a>
+                    </li>
+                    <li class="py-2 position-relative" onclick="getCategories(); " style="top: 150px;">
+                        <a class="text-white text-decoration-none">Categories</a>
+                    </li>
+                    <li class="py-2 position-relative" onclick="getArea(); ">
+                        <a class="text-white text-decoration-none" style="top: 150px;">Area</a>
+                    </li>
+                    <li class="py-2 position-relative" onclick="getIngredients(); " style="top: 150px;">
+                        <a class="text-white text-decoration-none">Ingredients</a>
+                    </li>
+                    <li class="py-2 position-relative" onclick="showContacts(); " style="top: 150px;">
+                        <a class="text-white text-decoration-none">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="nav-footer">
+                <div class="icons text-white py-2 d-flex gap-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="footer text-white">
+                    <p>Copyright © 2019 All Rights <br>Reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="nav-header vh-100 d-flex flex-column justify-content-between py-4 px-2 text-center  bg-white text-black">
+            <img class="logo " src="imgs/logo.png" alt="" srcset="" style="width: 60px; height: 70px;">
+            <i class="open-close-icon fa-solid fa-bars fa-2xl"></i>
+            <div class="d-flex gap-2 justify-content-center align-items-center">
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
